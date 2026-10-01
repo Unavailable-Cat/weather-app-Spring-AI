@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: tools
+  ai:
+    google:
+      genai:
+        chat:
+          model: gemini-3.8-flash
+        api-key: ${GOOGLE_GENAI_API_KEY}
+Weather:
+  Api:
+    Key: ${Weather_Api_Key}
+#    openai:
+#      base-url: https://api.groq.com/openai/v1
+#      api-key: ${OPENAI_API_KEY}
+#      chat:
+#        options:
+#          model: openai/gpt-oss-120b
